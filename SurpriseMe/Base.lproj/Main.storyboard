@@ -1,24 +1,476 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="SurpriseMe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="WBi-CP-hDS">
+                                <rect key="frame" x="20" y="20" width="335" height="627"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="3BR-XJ-fYc">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="530.5"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iSd-wp-wan">
+                                                <rect key="frame" x="0.0" y="0.0" width="335" height="163.5"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="g2s-76-0qe">
+                                                <rect key="frame" x="0.0" y="183.5" width="335" height="163.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Arc De Triomphe:  Fast-Track and Audio Tour" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="szW-fL-gMY">
+                                                        <rect key="frame" x="0.0" y="0.0" width="335" height="49"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular-widthClass=regular">
+                                                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="50"/>
+                                                        </variation>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Hi, " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Ttx-21-Vhh">
+                                                        <rect key="frame" x="0.0" y="57" width="335" height="49.5"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
+                                                        <color key="textColor" red="0.38305056100000001" green="0.79150205849999999" blue="0.84314322470000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular-widthClass=regular">
+                                                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="50"/>
+                                                        </variation>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Sign in to have an esier access to your tours and tickets. No password needed - we'll send you authorization code 😼" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="XJ2-3j-PAX">
+                                                        <rect key="frame" x="0.0" y="114.5" width="335" height="49"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular-widthClass=regular">
+                                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                                        </variation>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="XJ2-3j-PAX" firstAttribute="height" secondItem="szW-fL-gMY" secondAttribute="height" id="OIr-OB-p8G"/>
+                                                    <constraint firstItem="Ttx-21-Vhh" firstAttribute="height" secondItem="szW-fL-gMY" secondAttribute="height" id="eDJ-K9-MXE"/>
+                                                </constraints>
+                                            </stackView>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T9N-SB-2jh">
+                                                <rect key="frame" x="0.0" y="367" width="335" height="163.5"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="top" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="n34-3r-09U">
+                                                        <rect key="frame" x="0.0" y="59.5" width="335" height="45"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" horizontalCompressionResistancePriority="752" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v0H-JI-jP2" customClass="ShadowButton" customModule="SurpriseMe" customModuleProvider="target">
+                                                                <rect key="frame" x="0.0" y="0.0" width="60" height="45"/>
+                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="kfi-mD-XCT">
+                                                                        <variation key="heightClass=regular-widthClass=regular" constant="120"/>
+                                                                    </constraint>
+                                                                </constraints>
+                                                                <state key="normal">
+                                                                    <attributedString key="attributedTitle">
+                                                                        <fragment content="🇺🇸">
+                                                                            <attributes>
+                                                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                                <font key="NSFont" size="25" name="AppleColorEmoji"/>
+                                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                                            </attributes>
+                                                                        </fragment>
+                                                                        <fragment content="   ">
+                                                                            <attributes>
+                                                                                <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                                <font key="NSFont" size="25" name="FontAwesome5Free-Solid"/>
+                                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                                            </attributes>
+                                                                        </fragment>
+                                                                    </attributedString>
+                                                                </state>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                        <real key="value" value="4"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                        <real key="value" value="0.0"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                                                        <size key="value" width="1" height="1"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                                                        <real key="value" value="1"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                                                        <real key="value" value="3"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                                <connections>
+                                                                    <action selector="chooseYourCountryButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wo1-4h-gIa"/>
+                                                                </connections>
+                                                            </button>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="6YA-43-5wS">
+                                                                <rect key="frame" x="90" y="0.0" width="245" height="39"/>
+                                                                <subviews>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="dku-dZ-Igh">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="245" height="30"/>
+                                                                        <subviews>
+                                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="+1" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fwU-W2-SAr">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="29" height="30"/>
+                                                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                                                                <nil key="textColor"/>
+                                                                                <nil key="highlightedColor"/>
+                                                                                <variation key="heightClass=regular-widthClass=regular">
+                                                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
+                                                                                </variation>
+                                                                            </label>
+                                                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Enter your phone number" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dEq-5f-UTE">
+                                                                                <rect key="frame" x="37" y="0.0" width="208" height="30"/>
+                                                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                                                                <textInputTraits key="textInputTraits" keyboardType="numberPad" returnKeyType="done" enablesReturnKeyAutomatically="YES" textContentType="tel"/>
+                                                                                <variation key="heightClass=regular-widthClass=regular">
+                                                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
+                                                                                </variation>
+                                                                            </textField>
+                                                                        </subviews>
+                                                                    </stackView>
+                                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lf0-Mn-2nu">
+                                                                        <rect key="frame" x="0.0" y="38" width="245" height="1"/>
+                                                                        <color key="backgroundColor" red="0.89418655629999999" green="0.89798969029999998" blue="0.90195429329999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                        <constraints>
+                                                                            <constraint firstAttribute="height" constant="1" id="SPF-bn-Ork"/>
+                                                                        </constraints>
+                                                                    </view>
+                                                                </subviews>
+                                                            </stackView>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="n34-3r-09U" secondAttribute="trailing" id="Hl2-qz-ziH"/>
+                                                    <constraint firstItem="n34-3r-09U" firstAttribute="centerY" secondItem="T9N-SB-2jh" secondAttribute="centerY" id="diG-Uz-i85"/>
+                                                    <constraint firstItem="n34-3r-09U" firstAttribute="leading" secondItem="T9N-SB-2jh" secondAttribute="leading" id="koZ-Dh-jxx"/>
+                                                    <constraint firstItem="n34-3r-09U" firstAttribute="centerX" secondItem="T9N-SB-2jh" secondAttribute="centerX" id="sEj-4W-R3Z"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="T9N-SB-2jh" firstAttribute="height" secondItem="iSd-wp-wan" secondAttribute="height" id="ICC-6b-L9t"/>
+                                            <constraint firstItem="g2s-76-0qe" firstAttribute="height" secondItem="iSd-wp-wan" secondAttribute="height" id="h21-D1-PCI"/>
+                                        </constraints>
+                                        <variation key="heightClass=regular-widthClass=regular" spacing="40"/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="kT8-MI-zdU">
+                                        <rect key="frame" x="0.0" y="538.5" width="335" height="88.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X9M-Q2-FYR" customClass="ShadowButton" customModule="SurpriseMe" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="335" height="40.5"/>
+                                                <color key="backgroundColor" red="0.38431372549019605" green="0.792156862745098" blue="0.84313725490196079" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                                <state key="normal" title="Confirm and get code">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="10"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                                </variation>
+                                                <connections>
+                                                    <action selector="confirmButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tfj-R5-lrP"/>
+                                                </connections>
+                                            </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iK1-mx-hRp">
+                                                <rect key="frame" x="0.0" y="48.5" width="335" height="40"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cmd-8H-XxB">
+                                                        <rect key="frame" x="10" y="6" width="315" height="34"/>
+                                                        <state key="normal" title=""/>
+                                                        <connections>
+                                                            <action selector="signInAsDifferentPersonButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nUA-DE-zGq"/>
+                                                        </connections>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ATM-EY-Qoc">
+                                                        <rect key="frame" x="10" y="12.5" width="315" height="17.5"/>
+                                                        <attributedString key="attributedText">
+                                                            <fragment content="Not you? ">
+                                                                <attributes>
+                                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                    <font key="NSFont" size="15" name="Helvetica"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                            <fragment content="Sign in as another person">
+                                                                <attributes>
+                                                                    <color key="NSColor" red="0.38431372549019605" green="0.792156862745098" blue="0.84313725490196079" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <font key="NSFont" size="15" name="Helvetica-Bold"/>
+                                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                                </attributes>
+                                                            </fragment>
+                                                        </attributedString>
+                                                        <nil key="highlightedColor"/>
+                                                        <variation key="heightClass=regular-widthClass=regular">
+                                                            <attributedString key="attributedText">
+                                                                <fragment content="Not you? ">
+                                                                    <attributes>
+                                                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                        <font key="NSFont" size="30" name="Helvetica-Bold"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                                <fragment content="Sign in as another person">
+                                                                    <attributes>
+                                                                        <color key="NSColor" red="0.38431372549019605" green="0.792156862745098" blue="0.84313725490196079" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        <font key="NSFont" size="30" name="Helvetica-Bold"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
+                                                        </variation>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="ATM-EY-Qoc" secondAttribute="trailing" constant="10" id="C5P-bU-C7m"/>
+                                                    <constraint firstItem="Cmd-8H-XxB" firstAttribute="leading" secondItem="iK1-mx-hRp" secondAttribute="leading" constant="10" id="GCc-6V-qYf"/>
+                                                    <constraint firstAttribute="bottom" secondItem="Cmd-8H-XxB" secondAttribute="bottom" id="MO5-z2-Jy1"/>
+                                                    <constraint firstAttribute="bottom" secondItem="ATM-EY-Qoc" secondAttribute="bottom" constant="10" id="dGg-84-uvU"/>
+                                                    <constraint firstItem="ATM-EY-Qoc" firstAttribute="leading" secondItem="iK1-mx-hRp" secondAttribute="leading" constant="10" id="l9t-AT-OJc"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Cmd-8H-XxB" secondAttribute="trailing" constant="10" id="nb9-cl-Dtw"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="iK1-mx-hRp" firstAttribute="height" secondItem="X9M-Q2-FYR" secondAttribute="height" id="onG-nT-Ehi"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="kT8-MI-zdU" firstAttribute="height" secondItem="3BR-XJ-fYc" secondAttribute="height" multiplier="1:6" id="m8z-gW-G03"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WBi-CP-hDS" secondAttribute="bottom" constant="20" id="V5N-qt-2GP">
+                                <variation key="heightClass=regular-widthClass=regular" constant="40"/>
+                            </constraint>
+                            <constraint firstItem="WBi-CP-hDS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Zxs-mJ-ePq">
+                                <variation key="heightClass=regular-widthClass=regular" constant="40"/>
+                            </constraint>
+                            <constraint firstItem="WBi-CP-hDS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="bjD-rc-ncC">
+                                <variation key="heightClass=regular-widthClass=regular" constant="40"/>
+                            </constraint>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WBi-CP-hDS" secondAttribute="trailing" constant="20" id="fgj-sk-Mkf">
+                                <variation key="heightClass=regular-widthClass=regular" constant="40"/>
+                            </constraint>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="areaCode" destination="fwU-W2-SAr" id="aDz-2U-BYw"/>
+                        <outlet property="attractionDescription" destination="szW-fL-gMY" id="Bx8-qe-4OU"/>
+                        <outlet property="attractionImageView" destination="iSd-wp-wan" id="Boh-RE-WYS"/>
+                        <outlet property="bottomConstraint" destination="V5N-qt-2GP" id="hjN-Yt-tBL"/>
+                        <outlet property="chooseYourCountryButton" destination="v0H-JI-jP2" id="nUm-Uy-pLX"/>
+                        <outlet property="greetingsLabel" destination="Ttx-21-Vhh" id="oUS-wr-YMW"/>
+                        <outlet property="phoneTextField" destination="dEq-5f-UTE" id="E8n-Td-iq0"/>
+                        <outlet property="topConstraint" destination="Zxs-mJ-ePq" id="mID-jB-Epk"/>
+                        <segue destination="Ph0-03-Wtr" kind="popoverPresentation" identifier="enterTheCode" popoverAnchorView="X9M-Q2-FYR" id="XtM-PR-MjS">
+                            <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                        </segue>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.875" y="115"/>
+        </scene>
+        <!--Enter The Code View Controller-->
+        <scene sceneID="kAG-cn-BbP">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="Ph0-03-Wtr" customClass="EnterTheCodeViewController" customModule="SurpriseMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yax-0g-BSw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confirm your number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dY1-TX-JRZ">
+                                <rect key="frame" x="60" y="40" width="255" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="50"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please enter 4-digit code We just sent to" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yrb-4k-U9K">
+                                <rect key="frame" x="20" y="90" width="335" height="17.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="30"/>
+                                </variation>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="tMe-ww-khY">
+                                <rect key="frame" x="56" y="147.5" width="263" height="50"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="13g-b3-zgx" customClass="CodeTextField" customModule="SurpriseMe" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="aBU-e0-gUc"/>
+                                            <constraint firstAttribute="width" constant="50" id="cHN-Jw-Irr"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
+                                        </variation>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8vx-gy-QIc" customClass="CodeTextField" customModule="SurpriseMe" customModuleProvider="target">
+                                        <rect key="frame" x="71" y="0.0" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="aaC-3T-Qgt"/>
+                                            <constraint firstAttribute="height" constant="50" id="fE8-aD-z4S"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
+                                        </variation>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aBa-D5-hh9" customClass="CodeTextField" customModule="SurpriseMe" customModuleProvider="target">
+                                        <rect key="frame" x="142" y="0.0" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="3pQ-Fv-8SJ"/>
+                                            <constraint firstAttribute="height" constant="50" id="Gro-EJ-0f5"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
+                                        </variation>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Xf9-T4-lKs" customClass="CodeTextField" customModule="SurpriseMe" customModuleProvider="target">
+                                        <rect key="frame" x="213" y="0.0" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="2Of-6K-ycx"/>
+                                            <constraint firstAttribute="height" constant="50" id="zWP-iY-vdq"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
+                                        </variation>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dYd-HJ-BkE">
+                                <rect key="frame" x="20" y="237.5" width="335" height="60"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jdt-kw-dby">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="60"/>
+                                        <connections>
+                                            <action selector="sendAgainButtonTapped:" destination="Ph0-03-Wtr" eventType="touchUpInside" id="LxH-Xa-8bE"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pL1-8Y-Ls7">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="Vf9-qO-XvP"/>
+                                        </constraints>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Didn't get a code? ">
+                                                <attributes>
+                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                    <font key="NSFont" size="15" name="HelveticaNeue"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                            <fragment content="Send again">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.38431372549019605" green="0.792156862745098" blue="0.84313725490196079" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="15" name="HelveticaNeue-Bold"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=regular-widthClass=regular">
+                                            <attributedString key="attributedText">
+                                                <fragment content="Didn't get a code? ">
+                                                    <attributes>
+                                                        <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                        <font key="NSFont" size="30" name="HelveticaNeue-Bold"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                                <fragment content="Send again">
+                                                    <attributes>
+                                                        <color key="NSColor" red="0.38431372549019605" green="0.792156862745098" blue="0.84313725490196079" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <font key="NSFont" size="30" name="HelveticaNeue-Bold"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </variation>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="pL1-8Y-Ls7" firstAttribute="top" secondItem="dYd-HJ-BkE" secondAttribute="top" id="2Vx-0X-RwL"/>
+                                    <constraint firstAttribute="bottom" secondItem="pL1-8Y-Ls7" secondAttribute="bottom" id="9Cr-k5-ngC"/>
+                                    <constraint firstAttribute="trailing" secondItem="pL1-8Y-Ls7" secondAttribute="trailing" id="Y8b-C3-xVH"/>
+                                    <constraint firstAttribute="trailing" secondItem="jdt-kw-dby" secondAttribute="trailing" id="bS3-qW-rtU"/>
+                                    <constraint firstAttribute="bottom" secondItem="jdt-kw-dby" secondAttribute="bottom" id="iz4-K8-nfo"/>
+                                    <constraint firstItem="pL1-8Y-Ls7" firstAttribute="leading" secondItem="dYd-HJ-BkE" secondAttribute="leading" id="vbo-QQ-unf"/>
+                                    <constraint firstItem="jdt-kw-dby" firstAttribute="top" secondItem="dYd-HJ-BkE" secondAttribute="top" id="wS6-AX-Os5"/>
+                                    <constraint firstItem="jdt-kw-dby" firstAttribute="leading" secondItem="dYd-HJ-BkE" secondAttribute="leading" id="wfi-zP-7VN"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="s3O-e9-vGi" firstAttribute="trailing" secondItem="dYd-HJ-BkE" secondAttribute="trailing" constant="20" id="5MS-W8-CZE"/>
+                            <constraint firstItem="Yrb-4k-U9K" firstAttribute="top" secondItem="dY1-TX-JRZ" secondAttribute="bottom" constant="20" id="AHO-OX-oI7"/>
+                            <constraint firstItem="Yrb-4k-U9K" firstAttribute="leading" secondItem="s3O-e9-vGi" secondAttribute="leading" constant="20" id="Ej9-eF-ga8"/>
+                            <constraint firstItem="dYd-HJ-BkE" firstAttribute="top" secondItem="tMe-ww-khY" secondAttribute="bottom" constant="40" id="IwH-gE-aBl"/>
+                            <constraint firstItem="dYd-HJ-BkE" firstAttribute="leading" secondItem="s3O-e9-vGi" secondAttribute="leading" constant="20" id="cAz-8h-fHu"/>
+                            <constraint firstItem="tMe-ww-khY" firstAttribute="centerX" secondItem="yax-0g-BSw" secondAttribute="centerX" id="mjL-Rz-MBI"/>
+                            <constraint firstItem="dY1-TX-JRZ" firstAttribute="centerX" secondItem="yax-0g-BSw" secondAttribute="centerX" id="oDe-bU-0CB"/>
+                            <constraint firstItem="s3O-e9-vGi" firstAttribute="trailing" secondItem="Yrb-4k-U9K" secondAttribute="trailing" constant="20" id="reC-5F-b3v"/>
+                            <constraint firstItem="tMe-ww-khY" firstAttribute="top" secondItem="Yrb-4k-U9K" secondAttribute="bottom" constant="40" id="v6J-nf-8En"/>
+                            <constraint firstItem="dY1-TX-JRZ" firstAttribute="top" secondItem="s3O-e9-vGi" secondAttribute="top" constant="40" id="xrt-2H-fvH"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="s3O-e9-vGi"/>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="375" height="100"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="firstTextField" destination="13g-b3-zgx" id="YaD-hZ-sPA"/>
+                        <outlet property="fourthTextField" destination="Xf9-T4-lKs" id="7J1-gO-R3F"/>
+                        <outlet property="instructionsLabel" destination="Yrb-4k-U9K" id="a6f-XZ-vcI"/>
+                        <outlet property="secondTextField" destination="8vx-gy-QIc" id="ZcU-V3-Hbe"/>
+                        <outlet property="thirdTextField" destination="aBa-D5-hh9" id="yae-Am-eZb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2tJ-vm-e5V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="952.79999999999995" y="114.69265367316342"/>
         </scene>
     </scenes>
 </document>
