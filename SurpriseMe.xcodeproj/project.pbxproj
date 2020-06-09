@@ -15,7 +15,7 @@
 		DD12890A248FA818002B0BBE /* FreeSpaceForKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD128909248FA818002B0BBE /* FreeSpaceForKeyboard.swift */; };
 		DD12890C248FA832002B0BBE /* SetUpMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD12890B248FA832002B0BBE /* SetUpMainViewController.swift */; };
 		DD12890F248FABAA002B0BBE /* PostRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD12890E248FABAA002B0BBE /* PostRequest.swift */; };
-		DD46BB12248F9A350064A488 /* LogoImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD46BB11248F9A350064A488 /* LogoImages.swift */; };
+		DD128913248FB6E9002B0BBE /* LogoImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD128912248FB6E9002B0BBE /* LogoImages.swift */; };
 		DD59BC03248ECA1B009FE831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD59BC02248ECA1B009FE831 /* AppDelegate.swift */; };
 		DD59BC07248ECA1B009FE831 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD59BC06248ECA1B009FE831 /* MainViewController.swift */; };
 		DD59BC0A248ECA1B009FE831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD59BC08248ECA1B009FE831 /* Main.storyboard */; };
@@ -44,7 +44,7 @@
 		DD128909248FA818002B0BBE /* FreeSpaceForKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreeSpaceForKeyboard.swift; sourceTree = "<group>"; };
 		DD12890B248FA832002B0BBE /* SetUpMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetUpMainViewController.swift; sourceTree = "<group>"; };
 		DD12890E248FABAA002B0BBE /* PostRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRequest.swift; sourceTree = "<group>"; };
-		DD46BB11248F9A350064A488 /* LogoImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoImages.swift; sourceTree = "<group>"; };
+		DD128912248FB6E9002B0BBE /* LogoImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoImages.swift; sourceTree = "<group>"; };
 		DD59BBFF248ECA1B009FE831 /* SurpriseMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurpriseMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD59BC02248ECA1B009FE831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD59BC06248ECA1B009FE831 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -122,7 +122,7 @@
 		DD128908248FA761002B0BBE /* SignInViewController */ = {
 			isa = PBXGroup;
 			children = (
-				DD46BB11248F9A350064A488 /* LogoImages.swift */,
+				DD128912248FB6E9002B0BBE /* LogoImages.swift */,
 			);
 			path = SignInViewController;
 			sourceTree = "<group>";
@@ -339,6 +339,7 @@
 				DDB7DC21248F8800005B4228 /* SignInViewController.swift in Sources */,
 				DD59BC07248ECA1B009FE831 /* MainViewController.swift in Sources */,
 				DD59BC18248ED7FA009FE831 /* CountryFlag.swift in Sources */,
+				DD128913248FB6E9002B0BBE /* LogoImages.swift in Sources */,
 				DD915BD3248F7CC40086E8CC /* CodeTextField.swift in Sources */,
 				DD12890C248FA832002B0BBE /* SetUpMainViewController.swift in Sources */,
 				DD1288F9248FA334002B0BBE /* CodeVerificationViewController.swift in Sources */,
@@ -351,7 +352,6 @@
 				DDD034F6248EE39000783279 /* ShadowButton.swift in Sources */,
 				DD915BD1248F69C90086E8CC /* PhoneNumberConverter.swift in Sources */,
 				DD915B9B248F27550086E8CC /* UserCredentials.swift in Sources */,
-				DD46BB12248F9A350064A488 /* LogoImages.swift in Sources */,
 				DD1288F4248FA26D002B0BBE /* BorderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
