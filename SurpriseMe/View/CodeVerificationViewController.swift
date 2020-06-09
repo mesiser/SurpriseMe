@@ -11,10 +11,10 @@ import UIKit
 class CodeVerificationViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet var instructionsLabel: UILabel!
-    @IBOutlet var firstTextField: CodeTextField!
-    @IBOutlet var secondTextField: CodeTextField!
-    @IBOutlet var thirdTextField: CodeTextField!
-    @IBOutlet var fourthTextField: CodeTextField!
+    @IBOutlet var firstTextField: UITextField!
+    @IBOutlet var secondTextField: UITextField!
+    @IBOutlet var thirdTextField: UITextField!
+    @IBOutlet var fourthTextField: UITextField!
     
     var phoneNumber: String?
     

@@ -16,6 +16,7 @@
 		DD12890C248FA832002B0BBE /* SetUpMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD12890B248FA832002B0BBE /* SetUpMainViewController.swift */; };
 		DD12890F248FABAA002B0BBE /* PostRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD12890E248FABAA002B0BBE /* PostRequest.swift */; };
 		DD128913248FB6E9002B0BBE /* LogoImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD128912248FB6E9002B0BBE /* LogoImages.swift */; };
+		DD128915248FB9AF002B0BBE /* CodeVerificationTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD128914248FB9AF002B0BBE /* CodeVerificationTextField.swift */; };
 		DD59BC03248ECA1B009FE831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD59BC02248ECA1B009FE831 /* AppDelegate.swift */; };
 		DD59BC07248ECA1B009FE831 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD59BC06248ECA1B009FE831 /* MainViewController.swift */; };
 		DD59BC0A248ECA1B009FE831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD59BC08248ECA1B009FE831 /* Main.storyboard */; };
@@ -25,7 +26,6 @@
 		DD915B9B248F27550086E8CC /* UserCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD915B9A248F27550086E8CC /* UserCredentials.swift */; };
 		DD915BC5248F4E640086E8CC /* GetImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD915BC4248F4E640086E8CC /* GetImage.swift */; };
 		DD915BD1248F69C90086E8CC /* PhoneNumberConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD915BD0248F69C90086E8CC /* PhoneNumberConverter.swift */; };
-		DD915BD3248F7CC40086E8CC /* CodeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD915BD2248F7CC40086E8CC /* CodeTextField.swift */; };
 		DDB7DC21248F8800005B4228 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB7DC20248F8800005B4228 /* SignInViewController.swift */; };
 		DDD034F6248EE39000783279 /* ShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD034F5248EE39000783279 /* ShadowButton.swift */; };
 		DDF2A675248EF94800150E29 /* Font Awesome 5 Free-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = DDF2A674248EF94800150E29 /* Font Awesome 5 Free-Solid-900.otf */; };
@@ -45,6 +45,7 @@
 		DD12890B248FA832002B0BBE /* SetUpMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetUpMainViewController.swift; sourceTree = "<group>"; };
 		DD12890E248FABAA002B0BBE /* PostRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRequest.swift; sourceTree = "<group>"; };
 		DD128912248FB6E9002B0BBE /* LogoImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoImages.swift; sourceTree = "<group>"; };
+		DD128914248FB9AF002B0BBE /* CodeVerificationTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeVerificationTextField.swift; sourceTree = "<group>"; };
 		DD59BBFF248ECA1B009FE831 /* SurpriseMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurpriseMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD59BC02248ECA1B009FE831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD59BC06248ECA1B009FE831 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -56,7 +57,6 @@
 		DD915B9A248F27550086E8CC /* UserCredentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCredentials.swift; sourceTree = "<group>"; };
 		DD915BC4248F4E640086E8CC /* GetImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetImage.swift; sourceTree = "<group>"; };
 		DD915BD0248F69C90086E8CC /* PhoneNumberConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberConverter.swift; sourceTree = "<group>"; };
-		DD915BD2248F7CC40086E8CC /* CodeTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTextField.swift; sourceTree = "<group>"; };
 		DDB7DC20248F8800005B4228 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		DDD034F5248EE39000783279 /* ShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowButton.swift; sourceTree = "<group>"; };
 		DDF2A674248EF94800150E29 /* Font Awesome 5 Free-Solid-900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Free-Solid-900.otf"; sourceTree = "<group>"; };
@@ -96,7 +96,6 @@
 			children = (
 				DDD034F5248EE39000783279 /* ShadowButton.swift */,
 				DD1288F3248FA26D002B0BBE /* BorderView.swift */,
-				DD915BD2248F7CC40086E8CC /* CodeTextField.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -105,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				DD1288FE248FA629002B0BBE /* SetUpTextFieldDelegates.swift */,
+				DD128916248FB9D5002B0BBE /* UI */,
 			);
 			path = CodeVerificationViewController;
 			sourceTree = "<group>";
@@ -134,6 +134,14 @@
 				DD128909248FA818002B0BBE /* FreeSpaceForKeyboard.swift */,
 				DD128904248FA6D8002B0BBE /* ResetUI.swift */,
 				DD128906248FA71A002B0BBE /* UpdatePhoneNumber.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		DD128916248FB9D5002B0BBE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DD128914248FB9AF002B0BBE /* CodeVerificationTextField.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -340,7 +348,6 @@
 				DD59BC07248ECA1B009FE831 /* MainViewController.swift in Sources */,
 				DD59BC18248ED7FA009FE831 /* CountryFlag.swift in Sources */,
 				DD128913248FB6E9002B0BBE /* LogoImages.swift in Sources */,
-				DD915BD3248F7CC40086E8CC /* CodeTextField.swift in Sources */,
 				DD12890C248FA832002B0BBE /* SetUpMainViewController.swift in Sources */,
 				DD1288F9248FA334002B0BBE /* CodeVerificationViewController.swift in Sources */,
 				DD12890F248FABAA002B0BBE /* PostRequest.swift in Sources */,
@@ -350,6 +357,7 @@
 				DD915BC5248F4E640086E8CC /* GetImage.swift in Sources */,
 				DD128905248FA6D8002B0BBE /* ResetUI.swift in Sources */,
 				DDD034F6248EE39000783279 /* ShadowButton.swift in Sources */,
+				DD128915248FB9AF002B0BBE /* CodeVerificationTextField.swift in Sources */,
 				DD915BD1248F69C90086E8CC /* PhoneNumberConverter.swift in Sources */,
 				DD915B9B248F27550086E8CC /* UserCredentials.swift in Sources */,
 				DD1288F4248FA26D002B0BBE /* BorderView.swift in Sources */,
