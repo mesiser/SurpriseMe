@@ -1,16 +1,20 @@
 PODS:
+  - Alamofire (5.2.1)
   - SKCountryPicker (1.2.9)
 
 DEPENDENCIES:
+  - Alamofire
   - SKCountryPicker
 
 SPEC REPOS:
   trunk:
+    - Alamofire
     - SKCountryPicker
 
 SPEC CHECKSUMS:
+  Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
   SKCountryPicker: 7ad1e7dfb482cfb26855e33c2d70dbf1eaf218fe
 
-PODFILE CHECKSUM: 25cfa32e290ac95ab58f9dde65e488d362598d6e
+PODFILE CHECKSUM: 875a9314d1a21bdcceab6770d6337313e194ee6a
 
 COCOAPODS: 1.8.4

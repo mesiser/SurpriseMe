@@ -10,7 +10,7 @@ import Foundation
 
 class UserCredentials {
     
-    var userID: Int?
+    var userID = 42
     var userName = "Attilla"
     var userPhone: Int?
     var userEmail: String?

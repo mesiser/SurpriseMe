@@ -10,7 +10,7 @@ import Foundation
 
 class CountryFlag {
     
-    func getEmojiFlag(regionCode: String) -> String? {
+    func getEmojiFlag(for regionCode: String) -> String? {
         let code = regionCode.uppercased()
 
         guard Locale.isoRegionCodes.contains(code) else {

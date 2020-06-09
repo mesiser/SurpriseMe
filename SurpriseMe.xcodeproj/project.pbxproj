@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD1288F4248FA26D002B0BBE /* BorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1288F3248FA26D002B0BBE /* BorderView.swift */; };
+		DD1288F9248FA334002B0BBE /* CodeVerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1288F8248FA334002B0BBE /* CodeVerificationViewController.swift */; };
+		DD1288FF248FA629002B0BBE /* SetUpTextFieldDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1288FE248FA629002B0BBE /* SetUpTextFieldDelegates.swift */; };
+		DD128905248FA6D8002B0BBE /* ResetUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD128904248FA6D8002B0BBE /* ResetUI.swift */; };
+		DD128907248FA71A002B0BBE /* UpdatePhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD128906248FA71A002B0BBE /* UpdatePhoneNumber.swift */; };
+		DD12890A248FA818002B0BBE /* FreeSpaceForKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD128909248FA818002B0BBE /* FreeSpaceForKeyboard.swift */; };
+		DD12890C248FA832002B0BBE /* SetUpMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD12890B248FA832002B0BBE /* SetUpMainViewController.swift */; };
+		DD12890F248FABAA002B0BBE /* PostRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD12890E248FABAA002B0BBE /* PostRequest.swift */; };
+		DD46BB12248F9A350064A488 /* LogoImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD46BB11248F9A350064A488 /* LogoImages.swift */; };
 		DD59BC03248ECA1B009FE831 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD59BC02248ECA1B009FE831 /* AppDelegate.swift */; };
 		DD59BC07248ECA1B009FE831 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD59BC06248ECA1B009FE831 /* MainViewController.swift */; };
 		DD59BC0A248ECA1B009FE831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD59BC08248ECA1B009FE831 /* Main.storyboard */; };
@@ -17,8 +26,7 @@
 		DD915BC5248F4E640086E8CC /* GetImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD915BC4248F4E640086E8CC /* GetImage.swift */; };
 		DD915BD1248F69C90086E8CC /* PhoneNumberConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD915BD0248F69C90086E8CC /* PhoneNumberConverter.swift */; };
 		DD915BD3248F7CC40086E8CC /* CodeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD915BD2248F7CC40086E8CC /* CodeTextField.swift */; };
-		DD915BD5248F7D060086E8CC /* EnterTheCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD915BD4248F7D060086E8CC /* EnterTheCode.swift */; };
-		DD915BD7248F7DBE0086E8CC /* EnterTheCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD915BD6248F7DBE0086E8CC /* EnterTheCodeViewController.swift */; };
+		DDB7DC21248F8800005B4228 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB7DC20248F8800005B4228 /* SignInViewController.swift */; };
 		DDD034F6248EE39000783279 /* ShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD034F5248EE39000783279 /* ShadowButton.swift */; };
 		DDF2A675248EF94800150E29 /* Font Awesome 5 Free-Solid-900.otf in Resources */ = {isa = PBXBuildFile; fileRef = DDF2A674248EF94800150E29 /* Font Awesome 5 Free-Solid-900.otf */; };
 		F318944CC00B4CE878715748 /* Pods_SurpriseMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B113B394824FF8B0C6062C85 /* Pods_SurpriseMe.framework */; };
@@ -28,6 +36,15 @@
 		01DA5D6D74273A7FDC8F8450 /* Pods-SurpriseMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SurpriseMe.debug.xcconfig"; path = "Target Support Files/Pods-SurpriseMe/Pods-SurpriseMe.debug.xcconfig"; sourceTree = "<group>"; };
 		103109A7E3F0BD0BED29A467 /* Pods-SurpriseMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SurpriseMe.release.xcconfig"; path = "Target Support Files/Pods-SurpriseMe/Pods-SurpriseMe.release.xcconfig"; sourceTree = "<group>"; };
 		B113B394824FF8B0C6062C85 /* Pods_SurpriseMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SurpriseMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD1288F3248FA26D002B0BBE /* BorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderView.swift; sourceTree = "<group>"; };
+		DD1288F8248FA334002B0BBE /* CodeVerificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeVerificationViewController.swift; sourceTree = "<group>"; };
+		DD1288FE248FA629002B0BBE /* SetUpTextFieldDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpTextFieldDelegates.swift; sourceTree = "<group>"; };
+		DD128904248FA6D8002B0BBE /* ResetUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetUI.swift; sourceTree = "<group>"; };
+		DD128906248FA71A002B0BBE /* UpdatePhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePhoneNumber.swift; sourceTree = "<group>"; };
+		DD128909248FA818002B0BBE /* FreeSpaceForKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreeSpaceForKeyboard.swift; sourceTree = "<group>"; };
+		DD12890B248FA832002B0BBE /* SetUpMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetUpMainViewController.swift; sourceTree = "<group>"; };
+		DD12890E248FABAA002B0BBE /* PostRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRequest.swift; sourceTree = "<group>"; };
+		DD46BB11248F9A350064A488 /* LogoImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoImages.swift; sourceTree = "<group>"; };
 		DD59BBFF248ECA1B009FE831 /* SurpriseMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurpriseMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD59BC02248ECA1B009FE831 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD59BC06248ECA1B009FE831 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -40,8 +57,7 @@
 		DD915BC4248F4E640086E8CC /* GetImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetImage.swift; sourceTree = "<group>"; };
 		DD915BD0248F69C90086E8CC /* PhoneNumberConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberConverter.swift; sourceTree = "<group>"; };
 		DD915BD2248F7CC40086E8CC /* CodeTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTextField.swift; sourceTree = "<group>"; };
-		DD915BD4248F7D060086E8CC /* EnterTheCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterTheCode.swift; sourceTree = "<group>"; };
-		DD915BD6248F7DBE0086E8CC /* EnterTheCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterTheCodeViewController.swift; sourceTree = "<group>"; };
+		DDB7DC20248F8800005B4228 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		DDD034F5248EE39000783279 /* ShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowButton.swift; sourceTree = "<group>"; };
 		DDF2A674248EF94800150E29 /* Font Awesome 5 Free-Solid-900.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font Awesome 5 Free-Solid-900.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,6 +91,53 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		DD1288F5248FA28F002B0BBE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DDD034F5248EE39000783279 /* ShadowButton.swift */,
+				DD1288F3248FA26D002B0BBE /* BorderView.swift */,
+				DD915BD2248F7CC40086E8CC /* CodeTextField.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		DD128900248FA651002B0BBE /* CodeVerificationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DD1288FE248FA629002B0BBE /* SetUpTextFieldDelegates.swift */,
+			);
+			path = CodeVerificationViewController;
+			sourceTree = "<group>";
+		};
+		DD128903248FA6A8002B0BBE /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DD915BD0248F69C90086E8CC /* PhoneNumberConverter.swift */,
+				DD59BC17248ED7FA009FE831 /* CountryFlag.swift */,
+				DD12890D248FA9C7002B0BBE /* UI */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		DD128908248FA761002B0BBE /* SignInViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DD46BB11248F9A350064A488 /* LogoImages.swift */,
+			);
+			path = SignInViewController;
+			sourceTree = "<group>";
+		};
+		DD12890D248FA9C7002B0BBE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DD12890B248FA832002B0BBE /* SetUpMainViewController.swift */,
+				DD128909248FA818002B0BBE /* FreeSpaceForKeyboard.swift */,
+				DD128904248FA6D8002B0BBE /* ResetUI.swift */,
+				DD128906248FA71A002B0BBE /* UpdatePhoneNumber.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		DD59BBF6248ECA1B009FE831 = {
 			isa = PBXGroup;
 			children = (
@@ -96,10 +159,10 @@
 		DD59BC01248ECA1B009FE831 /* SurpriseMe */ = {
 			isa = PBXGroup;
 			children = (
-				DD915BC3248F4E530086E8CC /* Networking */,
 				DDD034F4248EE38200783279 /* Model */,
 				DD915B9C248F280A0086E8CC /* View */,
 				DD59BC16248ED7C1009FE831 /* ViewModel */,
+				DD915BC3248F4E530086E8CC /* Networking */,
 				DD59BC02248ECA1B009FE831 /* AppDelegate.swift */,
 				DD59BC08248ECA1B009FE831 /* Main.storyboard */,
 				DD59BC0B248ECA1C009FE831 /* Assets.xcassets */,
@@ -113,9 +176,9 @@
 		DD59BC16248ED7C1009FE831 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				DD915BD4248F7D060086E8CC /* EnterTheCode.swift */,
-				DD59BC17248ED7FA009FE831 /* CountryFlag.swift */,
-				DD915BD0248F69C90086E8CC /* PhoneNumberConverter.swift */,
+				DD128903248FA6A8002B0BBE /* MainViewController */,
+				DD128900248FA651002B0BBE /* CodeVerificationViewController */,
+				DD128908248FA761002B0BBE /* SignInViewController */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -124,7 +187,8 @@
 			isa = PBXGroup;
 			children = (
 				DD59BC06248ECA1B009FE831 /* MainViewController.swift */,
-				DD915BD6248F7DBE0086E8CC /* EnterTheCodeViewController.swift */,
+				DD1288F8248FA334002B0BBE /* CodeVerificationViewController.swift */,
+				DDB7DC20248F8800005B4228 /* SignInViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -133,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				DD915BC4248F4E640086E8CC /* GetImage.swift */,
+				DD12890E248FABAA002B0BBE /* PostRequest.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -141,8 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				DD915B9A248F27550086E8CC /* UserCredentials.swift */,
-				DD915BD2248F7CC40086E8CC /* CodeTextField.swift */,
-				DDD034F5248EE39000783279 /* ShadowButton.swift */,
+				DD1288F5248FA28F002B0BBE /* UI */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -271,16 +335,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD1288FF248FA629002B0BBE /* SetUpTextFieldDelegates.swift in Sources */,
+				DDB7DC21248F8800005B4228 /* SignInViewController.swift in Sources */,
 				DD59BC07248ECA1B009FE831 /* MainViewController.swift in Sources */,
 				DD59BC18248ED7FA009FE831 /* CountryFlag.swift in Sources */,
 				DD915BD3248F7CC40086E8CC /* CodeTextField.swift in Sources */,
+				DD12890C248FA832002B0BBE /* SetUpMainViewController.swift in Sources */,
+				DD1288F9248FA334002B0BBE /* CodeVerificationViewController.swift in Sources */,
+				DD12890F248FABAA002B0BBE /* PostRequest.swift in Sources */,
+				DD128907248FA71A002B0BBE /* UpdatePhoneNumber.swift in Sources */,
 				DD59BC03248ECA1B009FE831 /* AppDelegate.swift in Sources */,
+				DD12890A248FA818002B0BBE /* FreeSpaceForKeyboard.swift in Sources */,
 				DD915BC5248F4E640086E8CC /* GetImage.swift in Sources */,
+				DD128905248FA6D8002B0BBE /* ResetUI.swift in Sources */,
 				DDD034F6248EE39000783279 /* ShadowButton.swift in Sources */,
 				DD915BD1248F69C90086E8CC /* PhoneNumberConverter.swift in Sources */,
 				DD915B9B248F27550086E8CC /* UserCredentials.swift in Sources */,
-				DD915BD5248F7D060086E8CC /* EnterTheCode.swift in Sources */,
-				DD915BD7248F7DBE0086E8CC /* EnterTheCodeViewController.swift in Sources */,
+				DD46BB12248F9A350064A488 /* LogoImages.swift in Sources */,
+				DD1288F4248FA26D002B0BBE /* BorderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

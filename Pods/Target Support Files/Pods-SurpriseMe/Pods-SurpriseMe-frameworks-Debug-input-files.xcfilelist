@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-SurpriseMe/Pods-SurpriseMe-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
 ${BUILT_PRODUCTS_DIR}/SKCountryPicker/SKCountryPicker.framework
